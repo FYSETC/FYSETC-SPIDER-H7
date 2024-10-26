@@ -43,7 +43,7 @@ The FYSETC Spider on steroids, amp up your printer build with our most powerful 
 - Processor model (STM32H723)
 - Bootloader offset (No bootloader)
 - Clock Reference (25 Mhz crystal)
-- Communication interface (CAN bus (on PB8/PB9))
+- Communication interface (CAN bus (on PD0/PD1))
 - (1000000) CAN bus speed
 - () GPIO pins to set at micro-controller startup
 
@@ -52,14 +52,17 @@ The FYSETC Spider on steroids, amp up your printer build with our most powerful 
 
 ### CAN Bridge 
 
-- [*] Enable extra low-level configuration options 
-- Micro-controller Architecture (STMicroelectronics STM32)
-- Processor model (STM32H723)
-- Bootloader offset (No bootloader)
-- Clock Reference (25 Mhz crystal)
-- Communication interface (CAN bus (on PB8/PB9))
+- [*] Enable extra low-level configuration options
+- Micro-controller Architecture (STMicroelectronics STM32) 
+- Processor model (STM32H723) 
+- Bootloader offset (No bootloader) 
+- Clock Reference (25 MHz crystal) 
+- Communication interface (USB to CAN bus bridge (USB on PA11/PA12))
+- CAN bus interface (CAN bus (on PD0/PD1)) 
+- USB ids
 - (1000000) CAN bus speed
-- () GPIO pins to set at micro-controller startup
+- ()  GPIO pins to set at micro-controller startup
+
 
 ![klipper-usb](images/klipper-canbridge.png)
 
