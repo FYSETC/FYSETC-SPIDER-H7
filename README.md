@@ -69,5 +69,5 @@ The FYSETC Spider on steroids, amp up your printer build with our most powerful 
 
 ## GPIO and Pin Assignments 
 
-![pinout](images/pinout.png)
+![pinout](images/Spider-H7-Pinout.png)
 
