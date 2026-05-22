@@ -71,3 +71,4 @@ The FYSETC Spider on steroids, amp up your printer build with our most powerful 
 
 ![pinout](images/Spider-H7-Pinout.png)
 
+Image created by HDragoon - https://github.com/hdragoon
